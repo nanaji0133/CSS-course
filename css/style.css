@@ -1,0 +1,36 @@
+h2:hover {
+    color: blue; 
+    /* hover as lower specificity than id selector */
+}
+
+h2 {
+    color: darkgreen;
+}
+
+.heading-1 {
+    color: brown;
+}
+
+#heading-2 {
+    color: chartreuse;
+}
+
+li:nth-child(2) {
+    color: blue;
+}
+
+li:only-child {
+    color: red;
+}
+
+#storyfeed-link:link {
+    color: yellow;
+}
+
+#storyfeed-link:visited {
+    color: green
+}
+
+#storyfeed-link:hover {
+    color: red;
+}
