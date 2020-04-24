@@ -15,15 +15,15 @@ h2 {
     color: chartreuse;
 }
 
-li:nth-child(2) {
+/* li:nth-child(2) {
     color: blue;
 }
 
 li:only-child {
     color: red;
-}
+} */
 
-#storyfeed-link:link {
+/* #storyfeed-link:link {
     color: yellow;
 }
 
@@ -33,4 +33,20 @@ li:only-child {
 
 #storyfeed-link:hover {
     color: red;
+} */
+
+h1 + a {
+    color: red;
+}
+
+.h ~ #storyfeed {
+    color: green;
+}
+
+ul > li {
+    color: rgb(0, 81, 255);
+}
+
+ul li {
+    color: blueviolet;
 }
