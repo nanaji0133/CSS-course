@@ -1,56 +1,21 @@
-h2:hover {
-    color: blue; 
-    /* hover as lower specificity than id selector */
+body {
+    background-color: palegoldenrod;
+    /* background-image: url("https://image.shutterstock.com/image-photo/mountain-valley-road-landscape-260nw-762715789.jpg"); */
 }
 
-h2 {
-    color: darkgreen;
+
+#title {
+    color: rgb(255, 4, 132);
 }
 
-.heading-1 {
-    color: brown;
-}
+#div-img {
+    width: 70%;
+    height: 400px;
 
-.heading-1-1 {
-    color: darkslategray;
-}
-
-#heading-2 {
-    color: chartreuse;
-}
-
-/* li:nth-child(2) {
-    color: blue;
-}
-
-li:only-child {
-    color: red;
-} */
-
-/* #storyfeed-link:link {
-    color: yellow;
-}
-
-#storyfeed-link:visited {
-    color: green
-}
-
-#storyfeed-link:hover {
-    color: red;
-} */
-
-h1 + a {
-    color: red;
-}
-
-.h ~ #storyfeed {
-    color: green;
-}
-
-ul > li {
-    color: rgb(0, 81, 255);
-}
-
-ul li {
-    color: blueviolet;
+    color: white;
+    background-color: steelblue;
+    background-image: url("../img/favicon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
