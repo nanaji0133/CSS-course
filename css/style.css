@@ -1,7 +1,10 @@
 body {
-    background-color: palegoldenrod;
+    background: linear-gradient(to bottom, rgb(238, 232, 170), rgba(238, 232, 170, 0.4));
+    /* rgba(238, 232, 170, 0.4); */
     /* background-image: url("https://image.shutterstock.com/image-photo/mountain-valley-road-landscape-260nw-762715789.jpg"); */
+    /* background: rgb() */
 }
+
 
 
 #title {
@@ -11,11 +14,13 @@ body {
 #div-img {
     width: 70%;
     height: 400px;
+    /* background: linear-gradient(to left, red, steelblue, green, yellow); */
+    /* background: linear-gradient(to left,rgb(255, 0, 170),rgba(238, 0, 170, 0)); */
+    /* background: linear-gradient(to bottom left,rgb(255, 0, 170),rgba(238, 0, 170, 0)); */
+    /* background: linear-gradient(256deg ,rgb(255, 0, 170),rgba(238, 0, 170, 0)); */
+    /* background-image: url("../img/favicon.png"); */
+    /* background-repeat: no-repeat; */
+    background: radial-gradient(circle, red 20%, blue 30%, green 50%);
 
-    color: white;
-    background-color: steelblue;
-    background-image: url("../img/favicon.png");
-    background-repeat: no-repeat;
-    background-size: contain;
     
 }
