@@ -13,9 +13,6 @@ body {
     width: 70%;
     height: 400px;
     background: radial-gradient(circle, red 20%, blue 30%, green 50%);
-    /* border: 10px double purple;
-    margin: 20px 80px 60px 100px; 
-    padding: 20px 40px 60px 5px; */
 } 
 
 .para-1 {
@@ -33,6 +30,7 @@ body {
     padding: 2px 4px 6px 5px;
     float: left;   
 }
+
 .hidden {
     display: none;
 }
@@ -42,6 +40,27 @@ body {
     border: 2px solid black;
 }
 
-.para-2 {
+.container {
+    border: 3px solid black;
+    background-color: rgb(233, 210, 0);
+    height: 200px;
+    margin: 5px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-item {
+    border: 3px solid black;
+    line-height: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-align: center;
     
 }
